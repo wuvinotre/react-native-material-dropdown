@@ -1906,10 +1906,9 @@ __metadata:
     babel-eslint: ^8.0.0
     eslint: ^4.5.0
     eslint-plugin-react: ^7.0.0
-    prop-types: ^15.5.9
     react-native-material-buttons: ^0.5.0
     react-native-material-ripple: ^0.8.0
-    react-native-material-textfield: ^0.12.0
+    react-native-material-textfield: "https://github.com/wuvinotre/react-native-material-textfield"
   peerDependencies:
     react: "*"
     react-native: "*"
@@ -1940,15 +1939,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-material-textfield@npm:^0.12.0":
-  version: 0.12.0
-  resolution: "react-native-material-textfield@npm:0.12.0"
-  dependencies:
-    prop-types: ^15.5.9
+"react-native-material-textfield@https://github.com/wuvinotre/react-native-material-textfield":
+  version: 0.16.1
+  resolution: "react-native-material-textfield@https://github.com/wuvinotre/react-native-material-textfield.git#commit=ddbb596f79e0fabee48cded9ac6f38d4e6bf45d7"
   peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: cb12fbc34946c97af0a79e2cf01ba42164838247c9dcc690040ffe293452debadb5ff41c9f686eba39ff4ebb8d54c48680ae6d19c3f5de989ddd5c25ec4a2f70
+    react: ">=16.3.0"
+    react-native: ">=0.55.0"
+  checksum: 8cdd9d998a8c3d0ba54ffc41bfa73f4d5c456cd51ccde568cb647337fd400c0cfec36f5ff6a1baa0515d0375f3e38cb07ec8da53e334b74977ab0d4f1c0f8012
   languageName: node
   linkType: hard
 
