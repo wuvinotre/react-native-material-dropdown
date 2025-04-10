@@ -1861,7 +1861,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.5.10, prop-types@npm:^15.5.9, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -1886,16 +1886,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-material-buttons@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "react-native-material-buttons@npm:0.5.0"
+"react-native-material-buttons@https://github.com/wuvinotre/react-native-material-buttons":
+  version: 0.6.0
+  resolution: "react-native-material-buttons@https://github.com/wuvinotre/react-native-material-buttons.git#commit=5164807ff3143f64a53fdb7015b23e4bf7b0daba"
   dependencies:
-    prop-types: ^15.5.9
-    react-native-material-ripple: ^0.7.0
+    react-native-material-ripple: "https://github.com/wuvinotre/react-native-material-ripple"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 378894d57ad49391670e826c68245b5dfd2058ea7fd97ad32913953e95fa8afc164a0eb3df2089293cf7eb2d21d798a8fbc1f8a09feb184bdec81d0becceab2c
+  checksum: a58fb14460a7923cd31966d28cb9f9c991e0aca937b714cdcede238491dfc840e552a78cefa562518b98183783f57c6781b74f73099ac98036fb5490a1662135
   languageName: node
   linkType: hard
 
@@ -1906,8 +1905,8 @@ __metadata:
     babel-eslint: ^8.0.0
     eslint: ^4.5.0
     eslint-plugin-react: ^7.0.0
-    react-native-material-buttons: ^0.5.0
-    react-native-material-ripple: ^0.8.0
+    react-native-material-buttons: "https://github.com/wuvinotre/react-native-material-buttons"
+    react-native-material-ripple: "https://github.com/wuvinotre/react-native-material-ripple"
     react-native-material-textfield: "https://github.com/wuvinotre/react-native-material-textfield"
   peerDependencies:
     react: "*"
@@ -1915,27 +1914,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-native-material-ripple@npm:^0.7.0":
-  version: 0.7.5
-  resolution: "react-native-material-ripple@npm:0.7.5"
-  dependencies:
-    prop-types: ^15.5.10
+"react-native-material-ripple@https://github.com/wuvinotre/react-native-material-ripple":
+  version: 0.9.1
+  resolution: "react-native-material-ripple@https://github.com/wuvinotre/react-native-material-ripple.git#commit=748d06fb18b8d9b3b5d122179a62b3d4fa5f9ebe"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: b42cf73402da8fad3084869a671e039011cc51ff8f1cbc880bb1ae368f421f54b71d163a256e7a531169db2171ff50627e3a490e73cb0c1c9b882e19299cf497
-  languageName: node
-  linkType: hard
-
-"react-native-material-ripple@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "react-native-material-ripple@npm:0.8.0"
-  dependencies:
-    prop-types: ^15.5.10
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 1cf755640b976f114650fa6e0bbfaee42f34647175bb9042e21b7fcb02b7c1cf8d01c11e4e85ae6b5f27156220edd3f3746ec9c549ae9f53a74f4ca5f76068fe
+  checksum: 6948ef41604ff9e54288ff866c9ba3a869a7d3c228051dd3e28e29ee03d7952a4d1b5daf46acbd0a492d85c94aa6dec642fa5bc0a499e0f9cb6bacfa5f1d867b
   languageName: node
   linkType: hard
 
